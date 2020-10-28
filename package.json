@@ -1,0 +1,39 @@
+{
+  "name": "language-switcher",
+  "version": "1.0.0",
+  "description": "Plain html and vennila javascript language switcher, just pass different language files as JSON and switch just like that. It also provides a highly customisable switcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marzooq703/language-switcher.git"
+  },
+  "keywords": [
+    "Language",
+    "switcher",
+    "plain",
+    "html",
+    "language",
+    "switcher",
+    "plain",
+    "javascript",
+    "language",
+    "switcher",
+    "plain",
+    "js",
+    "language",
+    "switcher",
+    "vanilla",
+    "js",
+    "language",
+    "switcher"
+  ],
+  "author": "Hassan Marzooq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marzooq703/language-switcher/issues"
+  },
+  "homepage": "https://github.com/marzooq703/language-switcher#readme"
+}

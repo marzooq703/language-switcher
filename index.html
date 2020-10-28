@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Language Switcher</title>
+</head>
+
+<body>
+    <select onchange="languageSwitcher([
+    './languages/english.json',
+    './languages/tamil.json',
+    ],this.value)">
+        <option value="english">English</option>
+        <option value="tamil">Tamil</option>
+    </select>
+    <h1>
+        <Lang data-lang="title">Title</Lang>
+    </h1><br />
+    <Lang data-lang="description">Description</Lang>
+    <h5>
+        by <Lang data-lang="author"></Lang>
+    </h5>
+    <script src="./index.js" type="text/javascript">
+    </script>
+</body>
+
+</html>
